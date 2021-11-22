@@ -1,0 +1,280 @@
+.color-studio .select2-container--default .select2-selection--single {
+    padding-left: 0;
+}
+.color-studio .logo-color {
+    width: 100%;
+    min-height: 260px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color-studio .logo-color img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.color-studio .logo-choose {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #5fc8d3;
+    font-size: 16px;
+    font-family: 'Casper-Bold', sans-serif;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: underline;
+}
+.color-studio .logo-choose:hover { text-decoration: none;}
+.color-studio .box-holder {
+    padding-bottom: 20px;
+}
+.color-studio .color-content {
+    background: #fff;
+    padding-bottom:50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.color-studio .color-content .holder-block {
+    padding: 0 9.44%;
+}
+.color-studio .color-content .color-nav {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5ba2e;
+    margin: 0 0 25px;
+    padding: 0;
+    list-style: none;
+}
+.color-content .color-nav li {
+    padding: 0 12px;
+    position: relative;
+}
+.color-content .color-nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Casper-Bold', sans-serif;
+    position: relative;
+    display: flex;
+}
+.color-content .color-nav li a img {
+    display: inline-block;
+    margin-right: 5px;
+    align-self: center;
+}
+.color-content .color-nav li span {
+    width: 18px;
+    height: 14px;
+    border-radius: 7px;
+    position: absolute;
+    top: -9px;
+    right: 0;
+    display: block;
+    background: #fff;
+    text-align: center;
+    color: #f5ba2e;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: 'Casper-Bold', sans-serif;
+}
+.color-content .color-nav li a:hover,
+.color-content .color-nav li a.active {
+    opacity: 0.66;
+}
+.color-studio h2.title-studio {
+    font-size: 22px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    font-family: 'Casper-Bold', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+    color: #000;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.color-content .holder-block .head {
+    display: flex;
+    justify-content: space-between;
+}
+.color-content .holder-block .head h3.name {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    font-family: "AstraBold", sans-serif;
+    text-transform: uppercase;
+}
+.color-content .holder-block .head .info {
+    font-size: 12px;
+    font-family: 'Casper-Bold', sans-serif;
+    color: #cccccc;
+    display: block;
+}
+.color-content .holder-block .head .right {
+    text-align: right;
+}
+.color-content .holder-block .head a.share {
+    color: #f5ba2e;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Casper-Bold', sans-serif;
+    position: relative;
+    display: flex;
+}
+.color-content .holder-block .head a.share:hover {
+    text-decoration: underline;
+}
+.color-content .holder-block .head a.share img {
+    display: inline-block;
+    margin-right: 5px;
+    align-self: center;
+}
+.album-list-color {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.album-list-color li {
+    padding: 25px 0 20px;
+    width: 47.82%;
+}
+.album-list-color li a {
+    display: block;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    color: #f5ba2e;
+}
+.album-list-color li .img {
+    display: block;
+    /*background: linear-gradient(135deg, rgba(243,184,45,1) 0%, rgba(0,0,0,1) 100%);*/
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+}
+/*
+.album-list-color li .img:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/ico-06.png") no-repeat 50% 50%;
+    z-index: 1;
+}*/
+.album-list-color li .img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+.album-list-color li .name {
+    display: block;
+    color: #f5ba2e;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Casper-Bold', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .color-studio .color-content {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 529px) {
+    .color-content .color-nav li {
+        padding: 0 8px;
+    }
+    .color-content .color-nav li a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 479px) {
+    .color-studio .color-content .color-nav {
+        flex-wrap: wrap;
+        padding: 15px 0 5px;
+        height: initial;
+    }
+    .color-content .color-nav li {
+        margin-bottom: 5px;
+    }
+    .album-list-color li .name {
+        font-size: 14px;
+    }
+    .album-list-color li {
+        width: 100%;
+    }
+}
+@media (max-width: 419px) {
+    .color-content .color-nav li a {
+        font-size: 10px;
+    }
+}
+
+/* colorpick */
+#colorpick {
+    border: none;
+    background: none;
+}
+.text-colorpick {
+    font-family: "Casper-Bold", sans-serif;
+    line-height: 46px;
+    height: 48px;
+    color: #000;
+    text-overflow: ellipsis;
+}
+.addon .sp-replacer {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 9px;
+    top: 11px;
+    overflow: hidden;
+    padding: 0;
+    left: 60%;
+    height: 25px;
+}
+.addon .sp-replacer .sp-dd {
+    background-image: url('../images/sprite.png');
+    background-position: -143px -345px;
+    border: none;
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    top: 50%;
+    right: 6px;
+    margin: -4px 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.addon .sp-preview {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    float: none;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}

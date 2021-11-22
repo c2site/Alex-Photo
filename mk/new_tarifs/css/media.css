@@ -1,0 +1,198 @@
+@media(min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .section-my-tariff__balance .section-my-tariff__change-tariff {
+        display: none;
+    }
+}
+@media (min-width:991px) and (max-width: 1200px) {
+    .section-tariffs__price {
+        font-size: 29px;
+    }
+    .section-my-tariff__balance .section-my-tariff__change-tariff {
+        display: none;
+    }
+}
+@media (min-width:767px) and (max-width:991px) {
+    .section-tariffs__quantity-sum {
+        font-size: 33px;
+    }
+    .section-tariffs__none-price {
+        min-height: 85px;
+    }
+    .section-tariffs__el .btn-current__check {
+        display: none;
+    }
+    .section-my-tariffs__el {
+        display: block;
+    }
+    .section-my-tariff__balance .section-my-tariff__change-tariff {
+        margin-top: 10px;
+    }
+    .section-my-tariff__replenish {
+        display: none;
+    }
+    .section-my-tariff > li {
+        padding-bottom: 45px;
+    }
+    .section-my-tariff__card-el {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+@media(max-width: 767px) {
+    .tabs-mobile {
+        margin-top: 20px;
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .tabs-mobile__el {
+        font-family: "Astra",sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #5FC8D3;
+        width: 33%;
+        display: block;
+        padding-bottom: 17px;
+        position: relative;
+    }
+    .tabs-mobile__el.active {
+        color: #000000;
+    }
+    .tabs-mobile__el.active:after{
+        display: block;
+    }
+    .tabs-mobile__el:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 60%;
+        height: 1px;
+        background: #000000;
+        display: none;
+    }
+    .section-my-tariff > li {
+        width: 100%;
+        border-radius: 15px !important;
+    }
+    .section-my-tariff__change-tariff {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .section-my-tariff__check {
+        position: static;
+    }
+    .section-my-tariff__replenish {
+        display: none;
+    }
+    .section-my-tariff__balance .section-my-tariff__change-tariff {
+        display: block;
+        margin: 20px 0;
+    }
+    .section-my-tariff__sum {
+        color: #FC4746;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+    .section-my-tariff > li:after {
+        display: none;
+    }
+    .section-my-tariff__card-add {
+        position: static;
+        margin-top: 31px;
+    }
+    .section-my-tariff__card-el {
+        padding: 10px 30px 10px 38px;
+    }
+    .section-my-tariffs__el {
+        display: none;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .section-my-tariffs__el.show-box {
+        display: block;
+    }
+    .section-tariffs__el {
+        width: 100%;
+        padding-bottom: 25px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .section-tariffs__el:nth-of-type(3) {
+        margin: -10px auto;
+    }
+    .section-tariffs__el:first-child {
+        border-radius: 15px 15px 0px 0px;
+        border-bottom: none;
+
+    }
+    .section-tariffs__el:nth-of-type(2),
+    .section-sales ul li:first-child {
+        border: 1px solid rgba(95, 200, 211, 0.5);
+    }
+    .section-sales ul li:first-child {
+        padding-bottom: 30px;
+    }
+    .section-tariffs__el:last-child {
+        border-radius: 0px 0px 15px 15px;
+        border: 1px solid rgba(95, 200, 211, 0.5);
+    }
+    .section-tariffs__none-price {
+        max-width: 100%;
+        min-height: auto;
+    }
+    .section-tariffs__btn {
+        max-width: 100%;
+    }
+    .btn-current .btn-current__check {
+        left: calc(50% - 80px);
+    }
+    .section-tariffs__text-description {
+        text-align: center;
+        max-width: 100%;
+    }
+    .section-tariffs__el:nth-of-type(2) .section-tariffs__text-description {
+        margin-bottom: 10px;
+    }
+    .section-tariffs__el:last-child {
+        padding-top: 30px;
+    }
+    .section-sales ul li:nth-of-type(2) {
+        margin: -10px auto;
+    }
+    .table-transaction {
+        display: none;
+    }
+    .table-transaction-mobile {
+        display: table;
+    }
+    .table-transaction-mobile span {
+        display: block;
+    }
+    .table-transaction-mobile .table-transaction-mobile__change-tariff {
+        margin-top: 10px;
+        font-family: "Casper-Bold",sans-serif;
+        font-size: 16px;
+        color: #000000;;
+    }
+    .table-transaction-mobile .rub {
+        display: contents;
+    }
+    .menu-hidden {
+        left: 20px;
+        right: auto;
+        border: 1px solid #ebebeb;
+        border-radius: 15px;
+    }
+    .menu-hidden__balance .section-my-tariff__sum {
+        position: static;
+    }
+}
